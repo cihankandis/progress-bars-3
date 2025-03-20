@@ -27,7 +27,6 @@ export const ProgressBar = ({
 
   return (
     <div className="h-2 bg-gray-300 rounded relative">
-      isActive: {isActive ? "Yes" : "No"}
       <div
         className="h-2 bg-green-500 absolute rounded"
         style={{ width: `${progress}%` }}
