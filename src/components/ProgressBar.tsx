@@ -23,7 +23,7 @@ export const ProgressBar = ({
       }, 20);
       return () => clearInterval(interval);
     }
-  }, [isActive]);
+  }, [isActive, onComplete]);
 
   return (
     <div className="h-2 bg-gray-300 rounded relative">
